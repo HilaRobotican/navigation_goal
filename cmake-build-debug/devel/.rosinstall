@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hila/catkin_ws/src/mobilican/mobilican_demos/navigation_goal/cmake-build-debug/devel/setup.sh

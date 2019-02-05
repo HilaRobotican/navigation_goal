@@ -1,0 +1,8 @@
+prefix=/home/hila/catkin_ws/src/mobilican/mobilican_demos/navigation_goal/cmake-build-debug/devel
+
+Name: navigation_goal
+Description: Description of navigation_goal
+Version: 0.0.0
+Cflags: -I/home/hila/catkin_ws/src/mobilican/mobilican_demos/navigation_goal/cmake-build-debug/devel/include -I/home/hila/catkin_ws/src/mobilican/mobilican_demos/navigation_goal/include -I/usr/include
+Libs: -L/home/hila/catkin_ws/src/mobilican/mobilican_demos/navigation_goal/cmake-build-debug/devel/lib 
+Requires: actionlib_msgs cv_bridge opencv2 roscpp rospy sensor_msgs std_msgs message_runtime

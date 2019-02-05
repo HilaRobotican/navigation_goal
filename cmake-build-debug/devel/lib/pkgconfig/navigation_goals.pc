@@ -1,0 +1,8 @@
+prefix=/home/hila/catkin_ws/src/mobilican/mobilican_demos/navigation_goal/cmake-build-debug/devel
+
+Name: navigation_goals
+Description: Description of navigation_goals
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hila/catkin_ws/src/mobilican/mobilican_demos/navigation_goal/cmake-build-debug/devel/lib 
+Requires: 
