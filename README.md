@@ -14,6 +14,6 @@ The action server receives a name of a location from the action client ('all' by
 Each time the robot reaches to a goal, it waits for several secounds and than sends an image_snapshot request to the image_snapshot server. When initialized, the image_snapshot server loades a yaml file with the relevant topics of the robot's cameras. This server listens to each one of these topics, and when it is called, it saves the current image from each topic. When the image_snapshot service is done, the robot continues to its next goal, if exists.   
 
 usage:
-# roslaunch mobilican mobilican.launch robot:=armadillo2 gazebo:=true lidar:=true move_base:=true amcl:=true world:="/home/hila/catkin_ws/src/mobilican/mobilican_gazebo/worlds/rooms.world" have_map:=true map:="/home/hila/catkin_ws/src/mobilican/mobilican_navigation/maps/rooms.yaml" rgb_cam:=true
-# roslaunch navigation_goal navigation_goal.launch location_name:=___
-# rviz
+- roslaunch mobilican mobilican.launch robot:=armadillo2 gazebo:=true lidar:=true move_base:=true amcl:=true world:="/home/hila/catkin_ws/src/mobilican/mobilican_gazebo/worlds/rooms.world" have_map:=true map:="/home/hila/catkin_ws/src/mobilican/mobilican_navigation/maps/rooms.yaml" rgb_cam:=true
+- roslaunch navigation_goal navigation_goal.launch location_name:=___
+- rviz
